@@ -1,0 +1,117 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF5E1;
+  color: #4E3620;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #FFF5E1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Ensures centering horizontally */
+  height: 100vh; /* Ensures centering vertically */
+}
+h1 {
+  font-size: 3em;
+  color: #E27D60;
+}
+
+p {
+  font-size: 1.2em;
+  color: #A3B18A;
+}
+
+#go-button {
+  background-color: #FFA726;
+  color: #4E3620;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#go-button:hover {
+  background-color: #FF9800;
+}
+
+.checkbox-container {
+  margin-top: 20px;
+}
+
+#vegan-checkbox {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #E27D60;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.programmer-name {
+  font-size: 1.5em;
+  color: #FFF5E1;
+}
+
+.description {
+  color: #FFF5E1;
+  font-size: 1.2em;
+}
+
+.recipe-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#recipe-info {
+  margin-top: 20px;
+}
+
+#recipe-info h3 {
+  color: #E27D60;
+}
+
+#ingredients-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#instructions-list p {
+  margin-bottom: 10px;
+}
+#home-button {
+  background-color: #FF9800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#home-button:hover {
+  background-color: #E27D60;
+  transition: background-color 0.3s;
+}
